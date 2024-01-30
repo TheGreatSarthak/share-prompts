@@ -12,7 +12,7 @@ export const connectToDB = async () => {
   try {
     await mongoose.connect(
       //process.env.MONGODB_URI
-      "zdvnzcmvnz",
+      "mongodb+srv://sarthak2232:SIrQ9rZEBiOWLcaM@cluster0.j87obzj.mongodb.net/?",
       {
         dbName: "share_prompt",
       }
